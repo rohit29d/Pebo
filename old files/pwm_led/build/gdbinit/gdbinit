@@ -1,0 +1,2 @@
+source C:/Espressif/pwm_led/build/gdbinit/symbols
+source C:/Espressif/pwm_led/build/gdbinit/connect

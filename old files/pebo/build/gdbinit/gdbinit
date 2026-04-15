@@ -1,0 +1,2 @@
+source C:/Espressif/pebo/build/gdbinit/symbols
+source C:/Espressif/pebo/build/gdbinit/connect

@@ -1,0 +1,2 @@
+source C:/Espressif/uart_test/build/bootloader/gdbinit/symbols
+source C:/Espressif/uart_test/build/bootloader/gdbinit/connect
