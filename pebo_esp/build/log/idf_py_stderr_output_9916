@@ -1,4 +1,4 @@
-Command: cmake -G Ninja -B C:\Users\Rohit\Documents\Projects\Pebo\pebo_esp\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v6.0\venv\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32c3 -DCCACHE_ENABLE=False C:\Users\Rohit\Documents\Projects\Pebo\pebo_esp
+Command: cmake -G Ninja -B C:\Users\Administrator\Desktop\Rohit\Pebo\pebo_esp\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v6.0\venv\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=False C:\Users\Administrator\Desktop\Rohit\Pebo\pebo_esp
 Configuration Report               
 +---------------------------------+
 |  Parser Version: 1              |

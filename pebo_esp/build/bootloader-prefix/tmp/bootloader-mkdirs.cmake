@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/ESP-IDF/v6.0/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "C:/ESP-IDF/v6.0/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader"
-  "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix"
-  "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix/tmp"
-  "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix/src"
-  "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader"
+  "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix"
+  "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix/tmp"
+  "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix/src"
+  "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/Rohit/Documents/Projects/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/Administrator/Desktop/Rohit/Pebo/pebo_esp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
